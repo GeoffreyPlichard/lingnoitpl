@@ -167,7 +167,7 @@ body {
   position: relative;
   overflow: hidden; }
   .prev-next__img {
-    height: 100%;
+    width: 100%;
     transition: all .5s;
     filter: blur(1px) brightness(60%); }
   .prev-next__link {
@@ -262,7 +262,8 @@ body {
     width: calc(3 * ((100% - 3 * 4rem) / 4) + 4rem * 2); }
 
 .header__background {
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
   .single .header__background {
     height: 80vh; }
   .header__background img {

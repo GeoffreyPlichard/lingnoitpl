@@ -2,6 +2,7 @@
 
     &__background {
         height: 100vh;
+        overflow: hidden;
 
         .single & {
             height: 80vh;
