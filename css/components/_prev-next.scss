@@ -1,0 +1,30 @@
+.prev-next {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+
+    &__img {
+        height: 100%;
+        transition: all .5s;
+        filter: blur(1px) brightness(60%);
+    }
+
+    &__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+        text-decoration: none;
+        padding: 2rem;
+        color: $color-white;
+        z-index: 2; // Passe au dessus de l'image pour pouvoir cliquer
+        // On met l'image après le lien pour pouvoir la cibler
+
+        &:hover + .prev-next__img{
+            transform: scale(1.2);
+        }
+    }
+
+}

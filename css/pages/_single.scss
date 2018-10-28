@@ -1,0 +1,14 @@
+.single {
+    &__content p {
+        font-family: "medium-content-serif-font";
+        font-weight: 400;
+        font-size: 2.08rem;
+        line-height: 3.28rem;
+        letter-spacing: 0.00624rem;
+        margin-bottom: 2rem;
+    }
+
+    &__info {
+        color: $color-grey-light;
+    }
+}

@@ -1,0 +1,41 @@
+.comments {
+
+    &__title {
+        padding: 20px 0;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+
+    .comment {
+        margin-bottom: 40px;
+    }
+
+    .comment-body {
+        margin-bottom: 20px;
+    }
+
+    .comment-author img {
+        float:left;
+        margin-right: 10px;
+    }
+
+    .comment-author cite a {
+        text-decoration: none;
+        color: #222;
+        text-transform: uppercase;
+    }
+
+    .comment-meta {
+        margin-bottom: 20px;
+    }
+
+    .comment-meta a {
+        color: #999;
+    }
+
+    .children {
+        padding-left: 40px;
+    }
+}

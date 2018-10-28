@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* Utiliser l'héritage pour faire hériter les éléments du box sizing du body */
+}
+
+html { /* ROOT */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: $default-font-size;
+}
+
+.main {
+    padding: 5rem 0;
+}
